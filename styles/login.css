@@ -1,0 +1,85 @@
+.position_page{
+    color:red;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(208, 208, 208);
+}
+body{
+    background-image: linear-gradient(45deg,white,black);
+    background-repeat: no-repeat;
+}
+.Login{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    box-shadow: 4px 4px 6px white;
+    min-height: 500px;
+}
+.Login form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 15%;
+}
+.Login input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.Login label{
+    margin-bottom: 5px;
+}
+.Login h2{
+    margin-left: 20%;
+    text-shadow: 1px 2px 2px white;
+}
+.button1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: calc(20% + 50px);
+    margin: 90px 50px;   
+
+}
+@media screen and (max-width : 710px) {
+    .button1{
+        gap: 20px;
+    }
+    
+}
+.button1 button{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    min-height: 50px;
+    min-width: 120px;
+    
+}   
+.button1 button:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+#signup{
+    margin: 10px 40%;
+}
+
+footer p{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding-bottom: 90px;
+    background-color: #3333339f;
+    border-radius: 4px;
+    border: 2px solid;
+    color: white;
+
+}
